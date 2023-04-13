@@ -1,0 +1,130 @@
+
+.cv_content{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+}
+.cv_container {
+    padding: 20px;
+}
+.cv_header_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user_pic_section {
+    margin-right: 15px;
+}
+.user_contact_details {
+    width: 93%;
+    background-color: black;
+    padding: 1px 30px;
+    color: #fff;
+}
+.contact_details_one,.contact_details_two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+.cv_body {
+    display: flex;
+    justify-content: space-between;
+}
+.print_btn,.print_btn_json{
+    box-shadow: 0px 1px 6px 1px #ff5722;
+    border: none;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.print_btn_json{
+    font-size: 10px;
+    right: 30px;
+    width: max-content;
+    top: 70px;
+}
+.user_img{
+    border-radius: 50%;
+}
+.user_pic_section{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.profile_pick_input{
+    position: relative;
+    top: 0px;
+    height: 140px;
+    border-radius: 80px;
+    width: 160px;
+    padding: 10px 0px;
+    z-index: 99;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.skill{
+    border: 1px solid gray;
+    padding: 4px 8px;
+    margin: 2px;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: black;
+    color: white;
+}
+.user_name,.bio_details{
+    text-align: left;
+}
+
+.cv_right_section,.cv_left_section{
+    text-align: left;
+    width: 50%;
+}
+.cv_content h2{
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: underline;
+}
+.cv_content h3{
+    font-size: 18px;
+}
+textarea.MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputMultiline.MuiOutlinedInput-inputMultiline{
+    height: 38px !important;
+}
+.url_link{
+    text-decoration: none;
+    color: #fff;
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+.project_name,.collage_name{
+    font-weight: 700;
+}
+
+.main_cv_section{
+    position: relative;
+}
+@page {
+    size: A4;
+    margin: 0;
+}
+
+
+.cutome_btn{
+    margin: 10px !important;
+    padding: 3px 5px !important;
+}
+
+.save_contine_section,.theam_section,.reset_edit_section{
+    text-align: center;
+}

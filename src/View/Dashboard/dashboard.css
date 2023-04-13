@@ -1,0 +1,31 @@
+.dashboard_container{
+text-align: center;
+}
+.sub_heads_section{
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: emoji
+}
+.sub_heads{
+    margin: 0px;
+}
+.apply_btn{
+    background-color: black;
+    color: #fff;
+    box-shadow: 1px 2px 5px 1px grey;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .import_section{
+    margin-bottom: 20px;
+  }
+  .import_head{
+    margin: 10px;
+    font-weight: 900;
+  }
+  .continue_btn{
+    margin-top: 20px;
+  }
